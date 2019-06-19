@@ -5,14 +5,16 @@
  */
 package maintestpackage;
 
-import senariotests.StringReverseTestUsingSplit;
+import senariotests.*;
 
 /**
  *
  * @author yingd
  */
 public class MainTest {
+
     public static void main(String[] args) {
-        StringReverseTestUsingSplit.test();
+//        StringReverseTestUsingSplit.test();
+        UnknownTypeArrayListTest.test();
     }
 }
