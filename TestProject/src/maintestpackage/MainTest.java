@@ -20,5 +20,6 @@ public class MainTest {
 //        ConsumerTest.test();
 //        ArrayCastTest.test();
 //        MainThrowsExceptionTest.test();
+        SwitchTest.test();
     }
 }
