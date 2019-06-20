@@ -15,6 +15,7 @@ public class MainTest {
 
     public static void main(String[] args) {
 //        StringReverseTestUsingSplit.test();
-        UnknownTypeArrayListTest.test();
+//        UnknownTypeArrayListTest.test();
+        TypeCastVSPolymorphysm.test();
     }
 }
