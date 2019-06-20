@@ -13,9 +13,12 @@ import senariotests.*;
  */
 public class MainTest {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 //        StringReverseTestUsingSplit.test();
 //        UnknownTypeArrayListTest.test();
-        TypeCastVSPolymorphysm.test();
+//        TypeCastVSPolymorphysm.test();
+//        ConsumerTest.test();
+//        ArrayCastTest.test();
+//        MainThrowsExceptionTest.test();
     }
 }
