@@ -20,6 +20,9 @@ public class MainTest {
 //        ConsumerTest.test();
 //        ArrayCastTest.test();
 //        MainThrowsExceptionTest.test();
-        SwitchTest.test();
+//        SwitchTest.test();
+//        OverridingConstructorTest.test();
+//        ArrayListAddTest.test();
+        ArrayInitiallizationTest.test();
     }
 }
