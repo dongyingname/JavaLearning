@@ -23,9 +23,13 @@ class SuperClass {
     public SuperClass() {
         System.out.println("Default constructor of superclass is constructed!");
     }
+
+    public void methodA(String a) {
+    }
 }
 
 class SubClass extends SuperClass {
+
     int i, j, k;
 //    public SubClass(int m, int n) {
 //        i = m;
@@ -38,4 +42,5 @@ class SubClass extends SuperClass {
 //    public SubClass() {
 //        System.out.println("Default constructor of subclass is constructed!");
 //    }
+  
 }
