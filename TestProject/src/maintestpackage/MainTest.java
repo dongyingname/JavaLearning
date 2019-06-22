@@ -36,7 +36,8 @@ public class MainTest {
 //        var v2 = "hahaha";
 //        BaapBetaCastTest.test();
 //        GenericPairClassTest.test();
-        GenericPairClassTest2.test();
+//        GenericPairClassTest2.test();
+TryCatchReturnTest.test();
 
     }
 }
