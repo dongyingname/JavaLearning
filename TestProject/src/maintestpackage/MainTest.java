@@ -16,7 +16,7 @@ public class MainTest {
     public static void main(String[] args) throws Exception {
 //        StringReverseTestUsingSplit.test();
 //        UnknownTypeArrayListTest.test();
-        TypeCastVSPolymorphysm.test();
+//        TypeCastVSPolymorphysm.test();
 //        ConsumerTest.test();
 //        ArrayCastTest.test();
 //        MainThrowsExceptionTest.test();
@@ -35,7 +35,8 @@ public class MainTest {
 //        SortingUsingLambdaTest.test();
 //        var v2 = "hahaha";
 //        BaapBetaCastTest.test();
-
+//        GenericPairClassTest.test();
+        GenericPairClassTest2.test();
 
     }
 }
