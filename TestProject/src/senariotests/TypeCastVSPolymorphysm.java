@@ -12,28 +12,34 @@ package senariotests;
 public class TypeCastVSPolymorphysm {
 
     static public void test() {
-        Employee a = new Manager();
+        Employee a = new Employee();
+        Employee b = new Manager();
+
 //        ((Manager) a).bonus();
-            a.bonus();  
-            System.out.println(a.title);
-            Manager b = (Manager)a;
-            b.bonus();
-            System.out.println(b.title);
+        System.out.println("Employee:");
+        System.out.println(a.title);
 
-
+        System.out.println(a.bonus());
+        System.out.println("Manager:");
+        System.out.println(((Manager) b).title);
+        System.out.println(b.bonus());
     }
 }
+
 class Employee {
+
     String title = "Employee";
 
-    public void bonus() {
-        System.out.println("Employee's bonus is 6000");
+    public int bonus() {
+        return 3000;
     }
 }
+
 class Manager extends Employee {
+
     String title = "Manager";
 
-    public void bonus() {
-        System.out.println("Manager's bonus is 76000");
+    public int bonus() {
+        return 6000;
     }
 }

@@ -13,6 +13,7 @@ public class OverridingConstructorTest {
 
     static public void test() {
         SubClass sub = new SubClass();
+       
     }
 }
 
@@ -39,8 +40,9 @@ class SubClass extends SuperClass {
 //    public SubClass(int m) {
 //        super(m);
 //    }
-//    public SubClass() {
+    public SubClass() {
 //        System.out.println("Default constructor of subclass is constructed!");
-//    }
+super();
+    }
   
 }

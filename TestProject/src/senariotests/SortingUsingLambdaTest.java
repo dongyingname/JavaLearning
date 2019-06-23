@@ -14,6 +14,6 @@ import java.util.ArrayList;
 public class SortingUsingLambdaTest {
     static public void test(){
         var values = new ArrayList<String>();
-        values.sort( (var a, var b)-> a.compareTo(b) );
+        values.sort( (a, b)-> a.compareTo(b) );
     }
 }
