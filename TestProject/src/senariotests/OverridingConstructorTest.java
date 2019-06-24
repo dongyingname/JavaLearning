@@ -12,21 +12,19 @@ package senariotests;
 public class OverridingConstructorTest {
 
     static public void test() {
-        SubClass sub = new SubClass();
+//        SubClass sub = new SubClass();
        
     }
 }
 
 class SuperClass {
 
-//    public SuperClass(int m) {
-//    }
+    public SuperClass(int m) {
+    }
     public SuperClass() {
         System.out.println("Default constructor of superclass is constructed!");
     }
-
-    public void methodA(String a) {
-    }
+    
 }
 
 class SubClass extends SuperClass {
@@ -40,9 +38,8 @@ class SubClass extends SuperClass {
 //    public SubClass(int m) {
 //        super(m);
 //    }
-    public SubClass() {
+    public SubClass(int n) {
 //        System.out.println("Default constructor of subclass is constructed!");
-super();
     }
   
 }
