@@ -5,12 +5,17 @@
  */
 package maintestpackage;
 
+import testsenariopackage.LinkedListTest;
+import testsenariopackage.MapTest;
+
 /**
  *
  * @author yingd
  */
 public class Main {
+
     public static void main(String[] args) {
-        
+//        LinkedListTest.test();
+        MapTest.test();
     }
 }
