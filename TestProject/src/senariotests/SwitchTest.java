@@ -20,6 +20,7 @@ public class SwitchTest {
             default:
             case 1:
                 System.out.println(1);
+                
             case 0:
                 System.out.println(0);
             case 2:

@@ -21,7 +21,7 @@ public class MainTest {
 //        ConsumerTest.test();
 //        ArrayCastTest.test();
 //        MainThrowsExceptionTest.test();
-//        SwitchTest.test();
+        SwitchTest.test();
 //        OverridingConstructorTest.test();
 //        ArrayListAddTest.test();
 //        ArrayInitiallizationTest.test();
@@ -38,7 +38,7 @@ public class MainTest {
 //        BaapBetaCastTest.test();
 //        GenericPairClassTest.test();
 //        GenericPairClassTest2.test();
-        TryCatchReturnTest.test();
+//        TryCatchReturnTest.test();
 //        IheritanceOverrideTest.test();
 //        DOWHileLoopTest.test();
 
