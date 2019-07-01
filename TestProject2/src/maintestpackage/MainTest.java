@@ -20,7 +20,8 @@ public class MainTest {
 //        StaticMethodOverrideTest.test();
 //        EncapsulationTest.test();
 //        BitwiseOperatorTest.test();
-        SwitchSpecialTest.test();
+//        SwitchSpecialTest.test();
 //        ConstructerOverrideTest.test();
+        ForLoopTest.test();
     }
 }
