@@ -21,7 +21,7 @@ public class MainTest {
 //        ConsumerTest.test();
 //        ArrayCastTest.test();
 //        MainThrowsExceptionTest.test();
-        SwitchTest.test();
+//        SwitchTest.test();
 //        OverridingConstructorTest.test();
 //        ArrayListAddTest.test();
 //        ArrayInitiallizationTest.test();
@@ -35,7 +35,7 @@ public class MainTest {
 //        }
 //        SortingUsingLambdaTest.test();
 //        var v2 = "hahaha";
-//        BaapBetaCastTest.test();
+        BaapBetaCastTest.test();
 //        GenericPairClassTest.test();
 //        GenericPairClassTest2.test();
 //        TryCatchReturnTest.test();

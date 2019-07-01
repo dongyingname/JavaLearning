@@ -6,6 +6,8 @@
 package senariotests;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -19,14 +21,16 @@ public class GenericOverrideTest {
 
 class Base {
 
-    public List<CharSequence> transform(Set<CharSequence> list) {       //valid code   }; 
-        return new ArrayList();
+    public <T> Collection<T> transform(Collection<T> list) {
+        return new ArrayList<T>();
     }
 }
 
 class Derived extends Base {
 
-//    public List<String> transform(Set<String> list) {
-//    }
+    public <T> Collection<T> transform(Collection<T> list) {
+        return new HashSet<T>();
+//        return new HashSet<String>();
 
+    }
 }

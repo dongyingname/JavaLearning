@@ -10,20 +10,24 @@ package testsenarios;
  * @author yingd
  */
 public class FinalStaticFieldTest {
-    
-    
-    public static void test(){
-        
+
+    public static void test() {
+
     }
 }
 
-class Widget{
-   static int MAX;     //1
-   static final String CLASS_GUID;   // 2
-//    final String CLASS_GUID;   // 2
+class Widget {
 
-   static{
-       CLASS_GUID = "hahah";
-   }
-  
+    static int MAX;     //1
+    static final String CLASS_GUID;   // 2
+   final String GREAT;   // 2
+
+    static {
+        CLASS_GUID = "hahah";
+    }
+
+    public Widget(String a) {
+      GREAT ="HAHA";  
+    }
+
 }

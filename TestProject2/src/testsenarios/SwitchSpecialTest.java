@@ -14,15 +14,21 @@ public class SwitchSpecialTest {
     public static void test() {
         var s = "hel";
         switch (s) {
+
             default:
+            case "HELLO":
+                System.out.println("case: HELLO");
+                System.out.println("hahaha");
+                break;
             case "Hello":
                 System.out.println("case: Hello");
-                
+                break;
+
             case "hello":
                 System.out.println("case: hello");
                 break;
-            
+
         }
-     
+
     }
 }

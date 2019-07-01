@@ -16,13 +16,18 @@ public class TypeCastVSPolymorphysm {
         Employee b = new Manager();
 
 //        ((Manager) a).bonus();
-        System.out.println("Employee:");
-        System.out.println(a.title);
+//        System.out.println("Employee:");
+//        System.out.println(a.title);
+//        System.out.println(a.bonus());
+//        System.out.println("Manager:");
+//        System.out.println(((Manager) b).title);
+//        System.out.println(b.bonus());
+        
+        Manager c = new Manager();
+        System.out.println(((Employee)c).title);
+        System.out.println(((Employee)c).bonus());//always polymorphed
 
-        System.out.println(a.bonus());
-        System.out.println("Manager:");
-        System.out.println(((Manager) b).title);
-        System.out.println(b.bonus());
+        
     }
 }
 

@@ -14,16 +14,17 @@ public class TryCatchReturnTest {
     static String j = "";
 
     public static void test() {
-//        RuntimeException a = new RuntimeException();
-//        a =null;
-        throw null;
-    }
-//        try {
-//            RuntimeException re = null;
-////          RuntimeException re = new RuntimeException();
-//            throw re;
-//        } catch (Exception e) {
+
+        try {
+            RuntimeException re = null;
+//          RuntimeException re = new RuntimeException();
+            throw re;
+        } catch (Exception e) {
+            System.out.println(e);
+//        } catch (RuntimeException e) {
 //            System.out.println(e);
 //        }
-//    }
+//    
+        }
+    }
 }
