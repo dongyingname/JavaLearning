@@ -7,7 +7,6 @@ package maintestpackage;
 
 import senariotests.*;
 
-
 /**
  *
  * @author yingd
@@ -35,13 +34,13 @@ public class MainTest {
 //        }
 //        SortingUsingLambdaTest.test();
 //        var v2 = "hahaha";
-        BaapBetaCastTest.test();
+//        BaapBetaCastTest.test();
 //        GenericPairClassTest.test();
 //        GenericPairClassTest2.test();
 //        TryCatchReturnTest.test();
 //        IheritanceOverrideTest.test();
 //        DOWHileLoopTest.test();
+        TypeConversionTest.test();
 
-       
     }
 }

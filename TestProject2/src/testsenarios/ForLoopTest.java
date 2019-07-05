@@ -30,4 +30,5 @@ public class ForLoopTest {
         System.out.println("a: " + a);
 
     }
+    public static int doIt() throws Exception {  throw new Exception("FORGET IT");  }
 }
