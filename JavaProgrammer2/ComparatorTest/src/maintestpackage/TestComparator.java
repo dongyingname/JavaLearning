@@ -18,6 +18,7 @@ public class TestComparator {
         studentList.add(new Student("Thomas Jefferson", 1111, 3.8));
         studentList.add(new Student("John Adams", 2222, 3.9));
         studentList.add(new Student("George Washington", 3333, 3.4));
+       
         Comparator<Student> sortName = new StudentSortName();
         Comparator<Student> sortGpa = new StudentSortGpa();
 
