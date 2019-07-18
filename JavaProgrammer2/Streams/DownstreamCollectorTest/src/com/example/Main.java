@@ -39,7 +39,6 @@ public class Main {
                 .collect(groupingBy(s -> s.charAt(0),
                         mapping(String::length, toSet())));
         System.out.println(stringLengthByStartingLetter);
-        
-        
+
     }
 }
