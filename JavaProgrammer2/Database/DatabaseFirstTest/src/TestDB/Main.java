@@ -50,7 +50,7 @@ public class Main {
         String username = props.getProperty("jdbc.username");
         String password = props.getProperty("jdbc.password");
 //        return DriverManager.getConnection(url, username, password);
-                return DriverManager.getConnection("jdbc.postgresql:COREJAVA", "dbuser", "secret");
+        return DriverManager.getConnection("jdbc.postgresql:COREJAVA", "dbuser", "secret");
 
     }
 }
