@@ -9,7 +9,7 @@ package com.test;
  *
  * @author yingd
  */
-public class Main {
+public class Case1 {
     public static void main(String[] args) {
         for(enm c : enm.values()) System.out.print(c+" ");
     }
